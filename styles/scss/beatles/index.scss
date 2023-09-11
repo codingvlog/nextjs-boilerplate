@@ -1,0 +1,71 @@
+@import "./test-lab";
+@import "./test-plan";
+@import "./test-run";
+@import "./test-schedule";
+
+.beatles .rdt_TableBody .rdt_TableRow {
+  min-height: 10%;
+}
+
+.react-dataTable.beatles .rdt_TableHead {
+  height: 60px;
+}
+
+.beatles .rdt_TableHead .rdt_TableHeadRow {
+  height: 60px;
+  .rdt_TableCol {
+    height: 60px;
+    //padding: 1rem 1rem 1rem 1rem !important;
+  }
+}
+
+.beatles .rdt_TableCol > div > div {
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5em;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.beatles .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="btn-actions"] {
+  button svg {
+    color: inherit !important;
+  }
+  button:disabled {
+    border: none;
+    background: none;
+  }
+}
+
+.beatles .rdt_TableBody .rdt_TableRow:hover {
+  opacity: 75%;
+}
+
+.beatles .badge {
+  width: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+}
+
+.beatles .rdt_ExpanderRow .card {
+  border-radius : 0;
+  margin-bottom: 0;
+}
+
+.beatles .dropdown button {
+  height: 100%
+}
+
+.beatles .dropdown-menu.show {
+  margin-left: -0.1rem;
+  margin-right: -0.5rem;
+}
+
+.no-border {
+  border: none;
+}

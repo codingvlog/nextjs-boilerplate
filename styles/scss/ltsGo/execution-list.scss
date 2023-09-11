@@ -1,0 +1,48 @@
+//Execution List
+.ltsGo.executionListDataTable .rdt_TableBody .rdt_TableRow > div:first-child {
+  padding-right: 1rem;
+  margin-right: -1rem;
+}
+
+.executionListDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="executionId"] {
+  padding: 0 0 0 0 !important;
+}
+
+.executionListDataTable .rdt_TableHead .rdt_TableHeadRow {
+  [data-column-id="executedTime"], [data-column-id="owner"] {
+    //padding-left: 0 !important;
+  }
+}
+
+.executionListDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="executionName"] {
+  span {
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5em;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.executionListDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="executionId"] {
+  a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+  }
+}
+
+.executionListDataTable .rdt_TableCell[data-column-id="owner"] span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+}
+
+// .executionListDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="latestPassRate"] {
+//   justify-content: center;
+// }

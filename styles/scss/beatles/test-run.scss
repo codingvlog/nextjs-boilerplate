@@ -1,0 +1,13 @@
+.testRunDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="testRunId"] {
+  span {
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5em;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+

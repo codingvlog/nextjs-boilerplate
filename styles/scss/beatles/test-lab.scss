@@ -1,0 +1,88 @@
+.beatles.testLabsDataTable .rdt_TableBody .rdt_TableRow > div:first-child {
+  padding-right: 1rem;
+  margin-right: -1rem;
+}
+
+.testLabsDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="projectId"] {
+  padding: 0 0 0 0 !important;
+}
+
+.testLabsDataTable .rdt_TableHead .rdt_TableHeadRow {
+  [data-column-id="updatedTime"], [data-column-id="owner"] {
+    //padding-left: 0 !important;
+  }
+}
+
+.testLabsDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="projectName"] {
+  span {
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5em;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.testLabsDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="projectId"] {
+  a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+  }
+}
+
+.testLabsDataTable .rdt_TableCell[data-column-id="owner"] span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+}
+
+.testLabsDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="latestPassRate"] {
+  justify-content: center;
+}
+
+.table-lab-detail tbody td {
+  vertical-align: top;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+.table-lab-detail tbody td:first-child {
+  width: 22%;
+  font-weight: bold;
+}
+
+.table-lab-detail {
+  font-size: 12px;
+}
+
+.failed-testCases-dataTable .rdt_TableBody .rdt_TableRow {
+  border-collapse: collapse !important;
+  border-color: transparent !important;
+}
+
+.failed-testCases-dataTable .rdt_TableHead .rdt_TableCol {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto;
+}
+
+.failed-testCases-dataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.failed-testCases-dataTable-testRun .rdt_TableHead .rdt_TableCol {
+  height: auto;
+}
+
+.testLogConsole {
+  font-family: Courier, serif;
+  padding: 1rem
+}

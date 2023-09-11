@@ -1,0 +1,33 @@
+.dark-layout {
+  .card-text {
+    color: $theme-dark-body-color;
+  }
+
+  .card .card-header {
+    color: $theme-dark-body-color;
+  }
+
+  .rdt_ExpanderRow {
+    color: $theme-dark-body-color !important;
+  }
+
+  .dataTableLoading {
+    background-color: $theme-dark-card-bg;
+    width: 100%;
+    min-height: 250px;
+  }
+
+  //.MuiTableCell-root.MuiTableCell-body {
+  //  border-color: $theme-dark-border-color !important;
+  //}
+  //
+  //.MuiToolbar-root.MuiToolbar-gutters {
+  //  background: $theme-dark-table-header-bg;
+  //}
+  //
+  //.MuiTableContainer-root {
+  //  .MuiTableRow-root.MuiTableRow-head {
+  //    background: $theme-dark-table-header-bg;
+  //  }
+  //}
+}

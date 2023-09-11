@@ -1,0 +1,41 @@
+//TEST PLAN
+.testPlanDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="testPlanId"] {
+  a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+  }
+}
+
+.testPlanDataTable .rdt_TableBody .rdt_TableRow > div:first-child {
+  //padding-right: 1rem;
+  //margin-right: -1rem;
+  padding-left: 0.5rem;
+}
+
+.plan-pass-rate-badge {
+  width: 6rem;
+}
+
+.plan-status-badge {
+  width: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+}
+
+.testPlanDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="testPlanName"],
+.testPlanDataTable .rdt_TableBody .rdt_TableRow .rdt_TableCell[data-column-id="domain"] {
+  span {
+    white-space: break-spaces;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5em;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
